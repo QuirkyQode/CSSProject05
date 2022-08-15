@@ -1,0 +1,107 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+html {
+  background-color: #000;
+  color: #fff;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "Montserrat";
+  /* margin-top: 20px; */
+}
+.navbar {
+  display: block;
+  position: relative;
+  margin-left: 70px;
+  margin-right: 70px;
+  /* width: auto; */
+  /* top: 10px; */
+  margin-bottom: 70px;
+}
+.navbar img {
+  display: inline;
+  position: absolute;
+  width: 90px;
+  /* top: 10px; */
+}
+.grow-list {
+  display: inline;
+  position: absolute;
+  margin-left: 150px;
+  border-left: 3px solid #fff;
+}
+li {
+  padding: 0px 20px;
+  display: inline;
+}
+.list li:first-child {
+  margin-right: 20px;
+  margin-left: 10px;
+  /* background-color: red; */
+}
+.list li:first-child::after {
+  content: "";
+  position: absolute;
+  display: inline;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  margin-left: 10px;
+  margin-top: 5px;
+  transform: rotate(45deg);
+}
+.button-small {
+  display: inline;
+  display: absolute;
+  float: right;
+  /* right: 50px; */
+  /* top: 0; */
+  padding: 7px 20px;
+  background-color: #ba0cc5;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.hero {
+  display: block;
+  position: relative;
+  background-image: url(./assets/bg.png);
+  height: 1000px;
+  top: 50px;
+  text-align: center;
+  width: 100%;
+}
+.hero-heading {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  /* margin: 0 auto; */
+  /* width: 70%; */
+  margin-left: 20%;
+  margin-right: 20%;
+  top: 12%;
+  font-size: 70px;
+}
+.hero-description {
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  top: 13%;
+  font-size: 25px;
+}
+.button-large {
+  display: block;
+  position: relative;
+  text-align: center;
+  top: 18%;
+  padding: 20px 30px;
+  background-color: #ba0cc5;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+}
